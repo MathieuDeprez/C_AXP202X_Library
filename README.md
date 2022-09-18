@@ -1,10 +1,6 @@
 # C_AXP202X_Library
 
-**pure C port of [AXP202X_Libraries](https://github.com/lewisxhe/AXP202X_Library) by lewisxhe**
-
-lewisxhe's AXP202X library is ESP-IDF compatible *(but i didn't noticed, it was 20days ago)*. So i publish this, but **highly recommend you to use his original work.**
-
-This is a pure C port of the C++ code, which can be used as a component for ESP-IDF. Nothing has been added, and very little was removed. It now uses ESP-IDF i2c API.
+**Fork of https://github.com/tixlegeek/C_AXP202X_Library**
 
 ## Can now be used as component
 
@@ -12,7 +8,7 @@ in ```project/components```, clone the repository as submodule:
 
 ```bash
 cd components
-git submodule https://github.com/tixlegeek/C_AXP202X_Library.git
+git submodule https://github.com/MathieuDeprez/C_AXP202X_Library.git
 cd ..
 idf.py menuconfig
 ```
