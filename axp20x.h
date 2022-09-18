@@ -39,6 +39,10 @@ github:https://github.com/lewisxhe/AXP202X_Libraries
 #ifndef AXPXX_HEADER
 #define AXPXX_HEADER
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -799,5 +803,9 @@ typedef enum {
     extern uint8_t axpxx_irq[5];
     extern uint8_t axpxx_chip_id;
     extern bool axpxx_init;
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
